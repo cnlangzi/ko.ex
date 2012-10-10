@@ -1,3 +1,5 @@
+/// http://stackoverflow.com/questions/9679191/use-knockoutjs-virtual-element-to-create-html-part-on-the-fly
+
 (function () {
     var _setHtml = function (node, html) {
         var virtualChildren = _getVirtualChildren(node);
